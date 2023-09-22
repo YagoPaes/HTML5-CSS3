@@ -1,0 +1,22 @@
+@charset "UFT-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente é 1em
+
+    A RECOMENDAÇÃO OFICIAL É TRABALHAR COM PX E EM
+    */
+    font-size: 16px;
+
+    /* weight = peso, width = largura, height = altura*/
+    /* shorthand font
+    Ordem é - font-style -> font-weight -> font-size -> font-family
+    */
+}
