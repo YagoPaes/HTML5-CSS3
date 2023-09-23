@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/Desafio010/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }  
 
 @font-face {
     font-family: 'Destaque';
-    src: url('/Desafio010/fontes/BebasNeue-Regular.ttf') format('truetype');
+    src: url('fontes/BebasNeue-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
