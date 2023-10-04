@@ -36,6 +36,7 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    font-size: 0.7em;
 }
 
 a {
@@ -99,4 +100,5 @@ footer {
     color: white;
     background-color: black;
     padding: 10px;
+    font-size: 1.5vw;
 }
