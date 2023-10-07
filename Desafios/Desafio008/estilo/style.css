@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body#cinza {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body#verde {
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p, .principal {
+    color: darkslategray;
+}
+
+a.principal {
+    text-decoration: none;
+}
+
+a.principal:hover {
+    color: darkgrey;
+}
+
+h1, p, .pag01 {
+    color: darkgreen;
+}
+
+a.pag01 {
+    text-decoration: none;
+}
+
+a.pag01:hover {
+    color: greenyellow;
+}
+
+body#amarelo {
+    background-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p, .pag02 {
+    color: darkgoldenrod;
+}
+
+a.pag02 {
+    text-decoration: none;
+}
+
+a.pag02:hover {
+    color: gold;
+}
