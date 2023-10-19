@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome: </label>
+            <input type="text" name="Nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <input type="submit" value="Enviar">
+    </form>
+    <!--Sempre usar Label para formularios pois ele faz a junção com as caixas
+        GET geralmente usado para dados comuns q não são senciveis e só até 3mil bytes, POST geralmente para
+        dados mais sigilosos, q não apareçam na URL e mais de 3mil bytes de dados-->
+</body>
+</html>
